@@ -1,0 +1,33 @@
+.container{
+    background: whitesmoke;
+    margin: 5% 15%;
+    padding: 5%;
+    font-family: sans-serif;
+    border-style: outset;
+}
+
+.container input[type="text"]{
+    background: #fff;
+    padding: 5px;
+}
+
+.container input[type="button"]{
+    background: #fff;
+    padding: 5px 10px;
+}
+
+#try-again{
+    color: red;
+    display: none;
+}
+
+#correct{
+    color: green;
+    display: none;
+}
+
+#guess{
+    font-size: 0.7rem;
+    color: rgb(53, 52, 52);
+    padding: 5px;
+}
